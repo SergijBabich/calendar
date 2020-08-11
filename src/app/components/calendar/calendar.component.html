@@ -1,0 +1,22 @@
+<p>calendar works!</p>
+<div class="caledar">
+    <div class="caledar__container">
+        <div class="calendar__items">
+            <div class="calendar__wrapper">
+                <div *ngFor='let month of months' class="items__item">
+                    <p>{{month}}</p>
+                </div>
+            </div>
+            <div class="calendar__days">
+                <div *ngFor='let month of calendarData; let ind = index' class="days__items"  >
+                    <div  *ngFor='let day of month' class="items__item" [ngClass]="{thisClass:day.isWeekday}"> 
+                        <div    class="items__container"  [ngClass]="{addClass:containsAppointment(day), 'shortClass':containsAppointment1(day)}" >
+                            <div>{{day.format("D")}}</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</div>

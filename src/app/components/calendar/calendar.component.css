@@ -1,0 +1,53 @@
+.caledar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1345px;
+}
+.items__item {
+    margin: 0px;
+    width: 39px;
+    height: 52px;
+    background-color: rgba(236, 229, 229, 0.877);
+    border: 1px solid #00000021;
+}
+.mounth {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    width: 5%;
+}
+.caledar__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.calendar__items {
+    display: flex;
+}
+.container-name {
+    width: 30px;
+}
+.thisClass {
+    background-color: white;
+}
+.addClass {
+    background-color: forestgreen;
+
+}
+.calendar__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.items__container {
+    width: 41px;
+    height: 52px;
+    position: absolute;
+}
+.days__items {
+    display: flex;
+}
+.shortClass {
+    height: 26px;
+    background-color: green;
+}

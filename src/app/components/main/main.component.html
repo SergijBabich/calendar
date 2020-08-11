@@ -1,0 +1,12 @@
+
+ 
+ <app-query-window #elseSpan *ngIf="!activeClass"   [users] = "users" [activeClass]="activeClass" (onChanged) = 'onChanged($event)'  ></app-query-window>
+ <div   class='wrapper'>
+     <div class="wrapper__caledar">
+         <app-calendar [users] = "users" [calendarData] = "calendarData"></app-calendar>
+     </div>    
+     <div class="wrapper__sidebar">
+         <button (click)='menuShow()' >OPEN</button>
+     </div>
+         
+ </div>

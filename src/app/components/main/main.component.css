@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 1920px;
+    margin: auto;
+    display: flex;
+}
+
+.wrapper__caledar {
+ width: 80%;
+ height: 100vh;
+}
+.wrapper__sidebar {
+ width: 20%;
+ height: 100vh;
+ border: 2px solid black;
+}
